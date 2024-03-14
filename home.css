@@ -1,0 +1,27 @@
+.home {
+  scroll-snap-align: end;
+  padding: 60px;
+  margin: 300px auto;
+  height: 100%;
+  width: 80%;
+  font-size: 36px;
+  display: block-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.97);
+  background-color: white;
+  background-image: radial-gradient(
+    circle at 5px 5px,
+    #4141412d 2px,
+    transparent 1px
+  );
+  background-size: 20px 20px;
+  border-left: 2px solid black;
+}
+
+h1::first-letter {
+  color: red;
+}
